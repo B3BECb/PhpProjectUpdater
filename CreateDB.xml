@@ -1,0 +1,19 @@
+<?xml version='1.0'?> 
+<document>
+	<versionInfo>
+		<incomingVersion>1</incomingVersion>
+	</versionInfo>
+	<projectInfo>
+		<Name>ProjectName</Name>
+		<DatabaseName></DatabaseName>
+		<DatabaseUser></DatabaseUser>
+		<DatabasePassword></DatabasePassword>
+	</projectInfo>
+	<database>
+		<request>
+			CREATE DATABASE bd1
+		</request>
+	</database>
+	<paths>
+	</paths>
+</document>

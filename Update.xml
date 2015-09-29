@@ -1,0 +1,23 @@
+<?xml version='1.0'?> 
+<document>
+	<versionInfo>
+		<incomingVersion>1</incomingVersion>
+	</versionInfo>
+	<projectInfo>
+		<Name>textbooks</Name>
+		<DatabaseName></DatabaseName>
+		<DatabaseUser>root</DatabaseUser>
+		<DatabasePassword></DatabasePassword>
+	</projectInfo>
+	<database>
+		<request>
+			ALTER TABLE  db1.systemSettings ADD  repeatDaySlide INT NOT NULL ;
+		</request>
+	</database>
+	<paths>
+		<path>/slideDiplayerCore/slides.php</path>
+		<path>/slidesControl/back-end/slideControl.php</path>
+		<path>/settings.php</path>
+		<path>/js/settings.js</path>
+	</paths>
+</document>
